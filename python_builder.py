@@ -2,7 +2,7 @@
 
 
 # Python Builder
-
+# Author: Danx
 # Deskripsi: Sebuah GUI untuk mengkompilasi file Python (.py) menjadi executable (.exe)
 #            menggunakan PyInstaller. Dibuat untuk memberikan kontrol lebih
 #            detail terhadap proses kompilasi dan menghindari masalah file besar
@@ -506,6 +506,7 @@ if __name__ == '__main__':
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
+
 
 
 
