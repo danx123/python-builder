@@ -38,9 +38,14 @@ Add additional files, folders, or modules to the build.
 Displays the compilation results and progress in real-time.
 
 ---
+📝 Changelog v2.5.0
+- Added expand log
+
+---
 
 📸 Screenshot
-<img width="588" height="722" alt="Screenshot 2025-10-11 182813" src="https://github.com/user-attachments/assets/3459cb10-30bb-464a-909c-c3c08fcd04be" />
+<img width="1016" height="679" alt="Screenshot 2025-10-21 094211" src="https://github.com/user-attachments/assets/e52ebd64-63dd-49ef-8455-6988aca0e532" />
+
 
 ---
 
