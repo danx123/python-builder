@@ -38,13 +38,20 @@ Add additional files, folders, or modules to the build.
 Displays the compilation results and progress in real-time.
 
 ---
-📝 Changelog v2.5.0
-- Added expand log
+📝 Changelog v2.7.0
+Fixed
+- UI Freezing During ZIP Deployment: Resolved a major bug where the application UI would freeze or become unresponsive ("Not Responding") when the "Deploy (.zip) using LZMA" option was enabled.
+- The ZIP compression process, which is CPU-intensive, was previously running on the main UI thread. This process has now been moved to a dedicated background worker thread (ZipThread).
+- The application now remains fully responsive during the zipping phase, similar to how it handles the PyInstaller build process.
+- The "Start Compilation" button state is now updated correctly to "Zipping..." during this phase.
+- The closeEvent handler has been improved to also prevent the application from closing while a ZIP process is active, ensuring data integrity.
 
 ---
 
 📸 Screenshot
-<img width="1016" height="679" alt="Screenshot 2025-10-21 094211" src="https://github.com/user-attachments/assets/e52ebd64-63dd-49ef-8455-6988aca0e532" />
+<img width="1016" height="684" alt="Screenshot 2025-10-29 235239" src="https://github.com/user-attachments/assets/66489d6d-9b94-4097-8778-b37ab64213f5" />
+<img width="1017" height="683" alt="Screenshot 2025-10-29 235941" src="https://github.com/user-attachments/assets/85a3c02d-1e9c-465f-99db-dcf43fc18b80" />
+
 
 
 ---
