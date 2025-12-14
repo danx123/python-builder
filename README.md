@@ -38,14 +38,59 @@ Add additional files, folders, or modules to the build.
 Displays the compilation results and progress in real-time.
 
 ---
-📝 Changelog v3.0.0
-- Update Framework
+📝 Changelog v3.2.0
+* Added features
+
+1. Full Menu Bar
+
+File Menu:
+
+New / Reset (Ctrl+N)
+Save Profile (Ctrl+S)
+Load Profile (Ctrl+O)
+Recent Files (submenu)
+Clear Recent Files
+Exit (Alt+F4)
+
+Help Menu:
+
+Help Content
+Register .mpb Format
+About
+
+2. Recent Files
+
+Saves up to the last 10 profile files
+Keyboard shortcuts Ctrl+1 to Ctrl+9
+Auto-update when saving/loading a profile
+Double-click a .mpb file to load it immediately
+
+3. System Monitor (Status Bar)
+
+Displays CPU usage with a bar indicator
+Displays RAM usage with a bar indicator
+System information (OS, version, architecture)
+Real-time updates every 1 second
+Red color for CPU > 85%
+
+4. Registry Integration
+
+Register the .mpb file extension in Windows
+Double-clicking an .mpb file opens the application directly
+Icon association for .mpb files
+
+5. Improved Layout
+
+Menu bar at the top
+Main content in the center
+Status bar at the bottom
+Splitter still works properly
 
 ---
 
 📸 Screenshot
-<img width="1016" height="684" alt="Screenshot 2025-10-29 235239" src="https://github.com/user-attachments/assets/66489d6d-9b94-4097-8778-b37ab64213f5" />
-<img width="1017" height="683" alt="Screenshot 2025-10-29 235941" src="https://github.com/user-attachments/assets/85a3c02d-1e9c-465f-99db-dcf43fc18b80" />
+<img width="1365" height="767" alt="Screenshot 2025-12-14 222110" src="https://github.com/user-attachments/assets/0bf3be08-92fe-43e7-b72a-3906c895fe16" />
+
 
 
 
